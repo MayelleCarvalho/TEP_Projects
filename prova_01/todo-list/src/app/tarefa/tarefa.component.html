@@ -1,0 +1,9 @@
+<h2>Tarefas:</h2>
+<ul class = "tarefa"> 
+  <li *ngFor="let tarefa of tarefas">
+    {{tarefa.id}}
+    {{tarefa.descricao}}
+    {{tarefa.responsavel.nome}}
+    {{tarefa.porcentagem}}
+  </li>
+</ul>
